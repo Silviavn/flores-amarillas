@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Inclusive Sans', sans-serif;
-    background: linear-gradient(70deg, blue, purple, pink);
+    background: linear-gradient(70deg, #E0C3FC, #8EC5FC, pink);
 }
 
 h1 {
@@ -50,9 +50,9 @@ canvas {
     transition-duration: 0.2s;
     padding: 10px;
     border-radius: 8px;
-    background-color: greenyellow; 
+    background-color: rgb(150, 18, 190); 
     color: black; 
-    border: 2px solid green;
+    border: 2px solid rgb(170, 0, 255);
     cursor: pointer;
 }
   
@@ -87,7 +87,7 @@ canvas {
     width: 300px;
     padding: 30px;
     background-color: #f9f9f9;
-    border: 2px solid greenyellow;
+    border: 2px solid rgb(189, 17, 227);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -111,7 +111,7 @@ canvas {
 
 @media (max-width: 468px) {
     body {
-        background: linear-gradient(100deg, blue, purple, pink);
+        background: linear-gradient(100deg, rgb(228, 19, 251), purple, rgb(221, 42, 72));
 
     }
 }
